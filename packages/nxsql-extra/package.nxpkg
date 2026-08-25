@@ -1,0 +1,25 @@
+format = "1"
+
+[package]
+name = "nxsql-extra"
+version = "0.1.0"
+description = "Extra database drivers and utilities for NxSQL"
+author = "Nexa Contributors"
+license = "MIT"
+type = "extension"
+
+[distribution]
+provider = "pypi"
+name = "nxsql-extra"
+
+[compatibility]
+python_min = "3.10"
+nexa_min = "0.5.0"
+
+[extension]
+cli = true
+schema = false
+middleware = false
+
+[security]
+verified = false

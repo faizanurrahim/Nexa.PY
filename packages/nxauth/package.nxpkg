@@ -1,0 +1,27 @@
+format = "1"
+
+[package]
+name = "nxauth"
+version = "0.2.0"
+description = "Authentication extension for Nexa"
+author = "Nexa Contributors"
+license = "MIT"
+homepage = "https://github.com/faizanurrahim/nexa.py"
+repository = "https://github.com/faizanurrahim/nexa.py"
+type = "extension"
+
+[distribution]
+provider = "pypi"
+name = "nxauth"
+
+[compatibility]
+python_min = "3.10"
+nexa_min = "0.5.0"
+
+[extension]
+cli = true
+middleware = true
+schema = true
+
+[security]
+verified = false

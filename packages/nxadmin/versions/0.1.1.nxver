@@ -1,0 +1,8 @@
+format = "1"
+
+[version]
+version = "0.1.1"
+python_min = "3.11"
+nexa_min = "0.5.0"
+distribution = "nxadmin"
+provider = "pypi"
