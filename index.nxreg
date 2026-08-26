@@ -2,13 +2,9 @@ format = "1"
 
 # Nexa Package Registry Index
 # This file lists all packages available in the registry.
-# Each package name maps to its metadata location.
-#
-# Format: package_name
-# Packages are listed one per line.
-# Lines starting with # are comments.
 # Package names are case-insensitive for lookup.
+# Directories on GitHub must match exactly.
 
-NxAuth
+nxauth
 nxsql-extra
 nxadmin
