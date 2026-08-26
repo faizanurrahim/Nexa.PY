@@ -7,7 +7,8 @@ format = "1"
 # Format: package_name
 # Packages are listed one per line.
 # Lines starting with # are comments.
+# Package names are case-insensitive for lookup.
 
-nxauth
+NxAuth
 nxsql-extra
 nxadmin
